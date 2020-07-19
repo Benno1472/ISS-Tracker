@@ -1,0 +1,39 @@
+#mapid {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+#focusButton {
+    width: 35px;
+    height: 35px;
+    opacity: 50%;
+    background-color: red;
+    border-radius: 5px;
+    border: 20px;
+    top: 60px;
+    left: -2px;
+    position: relative;
+    z-index: 40000;
+    outline: none;
+}
+
+#focusButton:hover {
+    opacity: 100%;
+}
+
+#coordinates {
+    color: green;
+    font-size: 15px;
+    position: relative;
+    z-index: 40000;
+    top: -45px;
+    left: 40px;
+}
+
+#bodyElement {
+    /* hide horizontal scrollbar */
+    overflow: hidden
+}
