@@ -5,7 +5,7 @@ By Ben Leszczynski
  Track the International Space Station with an interactive map
 
 ## How To Use
-Run the file
+Open the file
 `index.html`
 
 
