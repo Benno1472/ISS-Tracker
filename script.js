@@ -1,3 +1,5 @@
+// By Ben Leszczynski
+
 let worldmap;
 let markerArray = [];
 let focus = false;
