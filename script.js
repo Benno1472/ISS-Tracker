@@ -27,7 +27,7 @@ window.onload = () => {
         accessToken: 'pk.eyJ1IjoiYmVubm8xNDcyIiwiYSI6ImNrYnR0NzJ6ajBkNDkycWw2ZXY5ZGUxeHoifQ.4JoAWBEaULEYK4HytFGQQg'
     }).addTo(worldmap);
 
-    // create the constant loop to update the map
+    // continously update every 5 seconds
     setInterval(update, 5000);
 
     // event listener and logic for focus button
